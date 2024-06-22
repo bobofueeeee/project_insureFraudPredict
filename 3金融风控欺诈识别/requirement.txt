@@ -1,0 +1,12 @@
+# python==3.10.14
+# jupyter-notebooks库关联：https://gitee.com/fubob/personal_work_env/blob/master/pythonIDE%E7%9A%84%E4%BD%BF%E7%94%A8%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90.md#3-jupyter-notebook
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+matplotlib==3.8.4
+matplotlib-base==3.8.4
+matplotlib-inline==0.1.7
+seaborn==0.13.2
+seaborn-base==0.13.2
+xgboost==2.0.3
+catboost==1.2.5
