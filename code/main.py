@@ -156,6 +156,7 @@ for train, test in sk.split(x_train, y_train):
     y_train_02_pred = xgboost_clf.predict_proba(x_train_02)[:, -1]
     print('cat验证的auc:{}'.format(roc_auc_score(y_train_02, y_train_02_pred)))
     mean_score += roc_auc_score(y_train_02, y_train_02_pred) / n_folds  ## 将n_folds次的auc值求了一个平均值
+
     print('--------mean_score---------')
     print(mean_score)
 
@@ -185,7 +186,6 @@ plot_importance(xgboost_clf,ax=ax)
 
 ## 6. 结果输出
 ## 6.1 测试集测试
-
 y_test_pred=sum(answers)/n_folds
 model_name = 'model_v20240430_1810'
 result = pd.read_csv('./data/submission.csv')

@@ -114,6 +114,7 @@ for i,val in enumerate(K_model_list):
     print(val)
     score = cross_validate(val,X_test,y_test,cv=6,scoring='accuracy')
     K_result.loc[i,'accuracy'] = score['test_score'].mean()
+
 K_result.index = pd.Series(['Tree','GBDT','XGBoost'])
 print(K_result)
 
