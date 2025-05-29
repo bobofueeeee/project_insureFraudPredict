@@ -1,22 +1,24 @@
-# 保险反欺诈项目
+Project Introduction
+This project primarily focuses on predicting whether an insured individual poses a fraud risk based on their personal information, claim details, claim amounts, etc. It is a binary classification problem.
 
-#### 项目介绍
-项目地址：https://tianchi.aliyun.com/competition/entrance/531994/introduction?spm=a2c22.12281925.0.0.4bcd7137rv4FUl
+Project Structure
+Project Plan
+(Outlining the overall timeline, milestones, and deliverables of the project.)
 
-主要针对保险人的个人信息、出险情况、索赔金额等等，对保险人是否存在欺诈风险进行预测，属于二分类问题
+Data Overview
+(Providing a general description of the dataset, including the number of records, features, and any initial observations about the data.)
 
-#### 项目结构
+Feature Engineering
+(Detailing the process of selecting, creating, and transforming features to improve model performance.)
 
-01项目计划
+Model Training
+(Describing the algorithms used, the training process, and any hyperparameter tuning performed.)
 
-02数据概览
+Model Evaluation
+(Explaining the metrics used to assess model performance, the results obtained, and any comparisons between different models.)
 
-03特征工程
+Model Deployment
+(Outlining the steps taken to deploy the trained model into a production environment, including any necessary integrations or APIs.)
 
-04模型训练
-
-05模型评估
-
-06模型上线
-
-07统计学知识学习
+Learning Statistical Knowledge
+(Highlighting the statistical concepts and techniques learned and applied throughout the project to enhance understanding and decision-making.)
